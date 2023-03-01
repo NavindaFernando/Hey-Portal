@@ -1,0 +1,33 @@
+.input {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.input label {
+  font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input input {
+  display: block;
+  margin-bottom: 0.6rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 44rem;
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #929292;
+}
+
